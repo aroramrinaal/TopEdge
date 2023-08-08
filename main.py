@@ -1,7 +1,6 @@
 import typer
 import psutil
 
-
 app = typer.Typer()
 
 @app.command()
