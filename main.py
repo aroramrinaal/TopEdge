@@ -15,7 +15,6 @@ def format_bytes(bytes_num):
 
 
 @app.command()
-@app.command()
 def cpu():
     cpu_percent = psutil.cpu_percent(interval=1, percpu=True)
     num_cores = psutil.cpu_count(logical=False)
